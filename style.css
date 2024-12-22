@@ -1,0 +1,677 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.navigation{
+    display: flex;
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     background-color: #f2632e;
+    position: sticky;
+}
+.image img{
+    height: 80%;
+}
+.number{
+    margin-left: 28%;
+    padding-top: 10%;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    color: white;
+}
+.btn{
+    padding-top: 10%;
+}
+.btn button{
+    padding: 3% 7% 3% 7%;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.navi{
+    text-align: center;
+    width: 100%;
+    height: auto;
+    padding: 1.5% 0% 1.5% 5%;
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div.navi{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.navi ul li{
+    display: inline;
+    margin-right: 5%;
+    cursor: pointer;
+}
+.navi ul li:hover{
+    cursor: pointer;
+    color: #f2632e;
+}
+.navi ul li span{
+   color: #f2632e;
+}
+.container-1{
+    background-image: url("https://www.kaboomconcretepumping.com.au/wp-content/uploads/2018/09/kaboomconcretepumping-slider-02-orange_tab.jpg");
+    height: auto;
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10% 0% 15% 0%;
+   
+}
+.container-1 p{
+    text-align: end; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 350%;
+    color: #fff;
+    font-weight: 700;
+    padding-right: 12%;
+
+}
+.container-1 span{
+    color: #f2632e;
+
+}
+.head{
+    font-size: 300%;
+    font-weight: 500;
+    font-family: "Raleway", Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+.container-2 {
+    text-align: center;
+    padding: 10% 20% 10% 20%;
+    font-family: "Raleway", Helvetica, Arial, sans-serif;
+}
+.cont{
+    font-size: 112%;
+    margin-top: 1.5%;
+    color: #777777;
+    font-family: "Raleway", Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+.container-2 .cont a{
+    text-decoration: none;
+    color: #2ea3f2;
+}
+.container-3{
+    padding: 10% 20% 10% 20%;
+
+
+}
+.head span{
+    color: #f2632e;
+}
+.container-4{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 0% 10% 15% 10%;
+    column-gap: 5%;
+    width: 100%;
+     height: auto;
+    
+}
+.card img{
+    width: 100%;
+    height: 60%;
+}
+.card{
+    background: #f1f1f1ed;
+    padding-bottom: 12%;
+    border-radius: 15px;
+    box-shadow: 10px;
+}
+.c-head{
+    margin-top: 2%;
+    color: #f2632e;
+    text-align: center;
+    font-size: 120%;
+    font-weight: 500;
+    font-family: "Raleway", Helvetica, Arial, sans-serif;
+}
+.c-para{
+    padding: 2% 5% 5% 5%;
+    text-align: center;
+    margin-top: 1.5%;
+    font-size: 99%;
+    margin-top: 1.5%;
+    color: #777777;
+    background-color: whitesmoke;
+    font-family: "Raleway", Helvetica, Arial, sans-serif;
+    line-height: 160%;
+}
+.container-5{
+    padding-bottom: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-image: url("https://www.kaboomconcretepumping.com.au/wp-content/uploads/2019/10/Resized_received_347307726218759.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    background-attachment: fixed;
+}
+.mini-cards{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    row-gap: 5%;
+    padding: 3% 12% 0% 12%;
+}
+.mc img{
+    width:80%;
+    height: 100%;
+}
+.container-5 .head{
+    padding-top: 5%;
+}
+.equipment{
+    text-align: center;
+    padding: 7% 0% 5% 0%;
+    font-family: "Raleway", Helvetica, Arial, sans-serif;
+}
+.e-section{
+    font-family: "Raleway", Helvetica, Arial, sans-serif;
+    display: grid;grid-template-columns: repeat(2,1fr);
+    width: 100%;
+    height: auto;
+    padding: 0% 8% 0% 15%;
+}
+.e-section img{
+    border-radius: 20px;
+    margin-top: 5%;
+}
+.e-head{
+    color: #f2632e;
+    padding-top: 3%;
+    font-size: 170%;
+}
+.e-para{
+    font-size: 110%;
+    padding-top: 2%;
+    color: #777777;
+}
+.e-para a{
+    color: #2ea3f2;
+    font-size: 105%;
+}
+.left img{
+    width: 80%;
+}
+.right img{
+    width: 80%;
+}
+.container-7{
+    padding: 15% 0% 2% 15%;
+    width: 100%;
+    height: auto;
+}
+.container-7 .head{
+    font-size: 200%;
+     text-align: center;
+     margin-left: -5%;
+}
+.right-cont img{
+    border-radius: 20px;
+}
+.right-cont img{
+    width: 100%;
+    height: auto;
+}
+ .container-7 .cont{
+    text-align: start;
+ }
+.container-7A{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 5%;
+    padding: 0% 15% 5% 15%;
+}
+.left-cont .cont{
+    font-size: 110%;
+    text-align: start;
+}
+.cont a{
+    color: #2ea3f2;
+}
+.last{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 5% 6% 5% 15%;
+    background-color: #000;
+    color: #fff;
+}
+.last span{
+font-family: "Open Sans", Helvetica, Arial, sans-serif;
+font-size: 120%;
+font-weight: 700;
+
+}
+.middle{
+    margin-left: 12%;
+    border-left: 2.7px solid #ffffff3c;
+    border-right: 2.7px solid #ffffff39;
+    padding-left: 5%;
+}
+.end{
+    padding-left: 5%;
+}
+.m-para{
+    cursor: pointer;
+}
+.end-para{
+    line-height: 105%;
+}
+.end-para a{
+    color: #fff;
+    text-decoration: none;
+}
+.foot{
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 2%;
+    border-top: 1.8px solid #ffffff3e;
+}
+.hide .fa-solid{
+    display: none;
+}
+
+@media only screen and (max-width: 1057px){
+     .navigation{
+        display: none;
+     }
+     .container-4{
+        width: 100%;
+        padding: 5%;
+        padding-bottom: 15%;
+     }
+        
+} 
+@media only screen and (max-width: 768px){
+
+     .container-4{
+        height: 100%;
+        padding-bottom: 15%;
+        padding-left: 20%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        row-gap: 0%;
+        align-items: center;
+     }
+     .card{
+        padding: 0%;
+        height: 70%;
+        width: 80%;
+     }
+     
+     .container-7{
+        padding: 15% 15% 15% 15%;
+     }
+      .container-7A{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding: 0% 15% 5% 15%;
+      }
+      .right-cont{
+        padding-top: 5%;
+      }
+      .equipment .cont{
+        padding: 0% 15% 0% 15%;
+      }
+    .last{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        row-gap: 5%;
+        height: auto;
+        width: 100%;
+        text-align: center;
+        padding-left: 0%;
+        padding-bottom: 15%;
+    }
+    .middle{
+        margin-left: 0%;
+        padding-left: 0%;
+        border-left: none;
+         
+    }
+    .end{
+        margin-left: 0%;
+        padding-left: 0%;
+        
+        border-left: none;
+    }
+    .foot{
+         padding-top: 15%;
+         padding-bottom: 5%;
+    }
+
+}
+@media only screen and (max-width: 759px){
+    .navi{
+        display: none;
+    }
+    .hide .fa-solid{
+        display: block;
+        cursor: pointer;
+    } 
+    .hide{
+        display: block;
+        text-align: end;
+        background-color: #000;
+        color: #fff;
+        padding: 3% 10% 3% 0%;
+        font-size: 110%;
+    }
+    
+}
+@media only screen and (max-width: 500px){
+  .container-1 p{
+    font-size: 200%;
+  }
+  .container-4{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    row-gap: 2%;
+  }
+  .container-5{
+    margin-top: 25%;
+  }
+  .head{
+    font-size: 110%;
+  }
+  .cont{
+    font-size: 100%;
+  }
+  .e-section{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+  }
+  .last{
+    padding-bottom: 25%;
+  }
+  .foot{
+    padding-bottom: 15%;
+  }
+  .ls{
+    padding: 0% 8% 0% 8%;
+  }
+}
+@media only screen and (max-width: 364px){
+    .container-5{
+        margin-top: 50%;
+    }
+}
+
+/* About us page */
+.about-front{
+    background-image: url("https://www.kaboomconcretepumping.com.au/wp-content/uploads/2018/09/IMG_9670.jpg");
+    height: auto;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 400%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    padding: 26% 0% 24% 0%;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 5px;
+}
+.contactUsForYourQuote{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 100;
+}
+.ct-left{
+    width: 100%;
+    padding: 20% 28% 0% 20%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ct-head{
+    font-size: 200%;
+    padding-bottom: 2%;
+}
+.ct-para{
+    font-size: 120%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    line-height: 120%;
+    color: #777777;
+}
+.ct-right{
+    width: 100%;
+}
+.ct-right img{
+    width: 100%;
+}
+.ct-btn{
+    padding: 4% 7% 4% 7%;
+    word-spacing: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 110%;
+    font-weight: 500;
+    color: #fff;
+    background-color: #f2632e;
+    border: 2px solid #f2632e;
+    cursor: pointer;
+    transition-duration: 1.5s;
+}
+.ct-btn:hover{
+    background-color: #fff;
+    color: #f2632e;
+    border: 1px solid #f2632e;
+}
+.needs{
+    padding: 0% 5% 0% 15%;
+}
+.needs .ct-left .ct-para{
+   font-size: 110%;
+}
+.needs .ct-left span{
+     color: #463e3e;
+     font-size: 120%;
+}
+.needs .ct-left .c2{
+    color: #2ea3f2;
+    font-size: 110%;
+}
+.s-head{
+    text-align: center;
+    font-size: 180%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 450;
+    color: #fff;
+}
+.s-img{
+    text-align: center;
+    margin-top: 2%;
+}
+.safty{
+    width: 100%;
+    background-color: #f2632fbf;
+    padding: 5% 0% 5% 0%;
+}
+.safty .qas{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 5%;
+    padding: 0% 15% 0% 15%;
+}
+.qas img{
+    float: left;
+     width: 100px;
+     height: 100px;
+     border-radius: 100%;
+     border: 0.5px solid #00000027;
+}
+.col-para{
+    font-size: 120%;
+     
+}
+ .col1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+ }
+ .col2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+ }
+ .col-para{
+    margin-left: -9rem;
+    padding-right: 15%;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+ }
+ .col-para span{
+    font-weight: bold;
+ }
+ .s-btn{
+    text-align: center;
+    margin-top: 8%;
+ }
+ .safty button{
+    padding: 1% 7% 1% 7%;
+    text-align: center;
+    background-color: #f2632fbf;
+    color: #fff;
+    border: 2px solid #f2632fbf;
+    font-size: 105%;
+ }
+ .fleet{
+    width: 100%;
+    text-align: center;
+    padding: 8% 0% 8% 0%;
+ }
+ .f-head{
+    font-size: 200%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 450;
+ }
+ .f-para{
+    font-size: 120%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+ }
+ .img-sec{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 5%;
+    padding: 5% 15% 5% 15%;
+    
+ }
+ .img-sec img{
+     width: 100%;
+     cursor: pointer;
+ }
+ .f-btn{
+    text-align: center;
+ }
+ .f-btn button{
+    padding: 1% 4% 1% 4%;
+    text-align: center;
+    font-size: 105%;
+    color: #fff;
+    background-color: #f2632e;
+    border: 2px solid #f2632e;
+    cursor: pointer;
+ }
+ .f-btn button:hover{
+    background-color: #fff;
+    color: #f2632e;
+    border: 1.5px solid #f2632e;
+ }
+ .services .contactUsForYourQuote .ct-left{
+    margin-top: -10%;
+ }
+ .services .contactUsForYourQuote .ct-left .ct-para{
+     font-size: 110%;
+     line-height: 165%;
+ }
+ .reachUs{
+    background-image: url("https://www.kaboomconcretepumping.com.au/wp-content/uploads/2018/09/20664429_378855812529035_2854485241539253337_n.jpg");
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 5%;
+    padding: 7% 5% 9% 15%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin-top: -0.36%;
+    background-attachment: fixed;
+ }
+ .r-para{
+    font-size: 120%;
+ }
+ .r-para .fa-solid{
+    color: #f2632e;
+ }
+ .form input{
+    border: 2px solid #fff;
+    width: 100%;
+    padding: 1.5% 0% 1.5% 0%;
+    cursor: pointer;
+ }
+.r-para{
+    color: #777777;
+}
+  .r-para span{
+     font-size: 120%;
+     color: #000;
+     font-family: Arial, Helvetica, sans-serif;
+  }
+  .fm-head{
+    font-size: 120%;
+     color: #000;
+     font-family: Arial, Helvetica, sans-serif;
+  }
+ .r-left{
+    width: 69%;
+    background-color: #fff;
+    padding: 4% 5% 4% 5%;
+    border-radius: 20px;
+ }
+ .r-right{
+    padding: 4% 7% 4% 7%;
+    background-color: #fff;
+    margin-left: -30%;
+    border-radius: 20px;
+ }
+.calc{
+    text-align: end;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+.calc input{
+    border: 2px solid #fff;
+    padding: 0.5% 0% 0.5% 0%;
+    cursor: pointer;
+}
+.calc button{
+    padding: 2% 4% 2% 4%;
+    font-size: 110%;
+    background-color: #f2632e;
+    color: #fff;
+    border: 2px solid #f2632e;
+    cursor: pointer;
+    border-radius: 20px;
+
+}
+
+ 
